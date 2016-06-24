@@ -5,7 +5,7 @@ require_once('phpmailer/class.phpmailer.php');
 $mail = new PHPMailer();
 
 $mail->IsSMTP();
-$mail->Host = "mail.isiwater.com";
+$mail->Host = "smtp.isiwater.com";
 $mail->SMTPDebug = 2;
 $mail->SMTPAuth = true;
 $mail->Port = 26;
