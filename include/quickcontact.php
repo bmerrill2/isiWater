@@ -15,8 +15,8 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
 		$botcheck = $_POST['quick-contact-form-botcheck'];
 
-		$toemail = ''; // Your Email Address
-		$toname = ''; // Your Name
+		$toemail = 'bradmerrill@eighty1designs.com'; // Your Email Address
+		$toname = 'Brad Merrill'; // Your Name
 
 		if( $botcheck == '' ) {
 
