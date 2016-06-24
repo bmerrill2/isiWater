@@ -4,6 +4,14 @@ require_once('phpmailer/class.phpmailer.php');
 
 $mail = new PHPMailer();
 
+$mail->IsSMTP();
+$mail->Host = "mail.isiwater.com";
+$mail->SMTPDebug = 2;
+$mail->SMTPAuth = true;
+$mail->Port = 26;
+$mail->Username = "bradleym@isiwater.com";
+$mail->Password = "beatles8";
+
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     if( $_POST['template-contactform-name'] != '' AND $_POST['template-contactform-email'] != '' AND $_POST['template-contactform-message'] != '' ) {
 
