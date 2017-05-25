@@ -13233,3 +13233,12 @@ body:not(.no-transition) #wrapper,
 	padding:0!important
 }
 
+.btn-warning {
+  background-color: #FF4E1A;
+  border-color: #FF4E1A;
+}
+
+.btn-warning:hover {
+  background-color: black;
+  border-color: #FF4E1A
+}
