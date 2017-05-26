@@ -3263,7 +3263,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	border-bottom: none;
 }
 
-#page-title.page-title-dark h1 { color: rgba(255,255,255,0.9) !important; }
+#page-title.page-title-dark h1 { color: deepskyblue !important; }
 
 #page-title.page-title-dark span { color: rgba(255,255,255,0.7); }
 
@@ -13241,4 +13241,12 @@ body:not(.no-transition) #wrapper,
 .btn-warning:hover {
   background-color: black;
   border-color: #FF4E1A
+}
+
+.special {
+  color: deepskyblue
+}
+
+#orange {
+  color: orange
 }
